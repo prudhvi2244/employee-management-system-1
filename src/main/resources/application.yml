@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: EMPLOYEE-MANAGEMENT-SYSTEM
+  datasource:
+    url: jdbc:postgresql://database-1.cmdlxfdnrfju.ap-south-1.rds.amazonaws.com:5432/employeedb
+    username: postgres
+    password: 12345678
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 9876
