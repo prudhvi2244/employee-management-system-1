@@ -3,7 +3,7 @@ spring:
   application:
     name: EMPLOYEE-MANAGEMENT-SYSTEM
   datasource:
-    url: jdbc:postgresql://database-1.cmdlxfdnrfju.ap-south-1.rds.amazonaws.com:5432/employeedb
+    url: jdbc:postgresql://postgres-container:5432/employeedb
     username: postgres
     password: 12345678
   jpa:
